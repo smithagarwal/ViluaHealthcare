@@ -1,0 +1,23 @@
+plot_rep_seq1 <- function(seq,x_title = "",y_title = "",title = "",text_width = 2)
+{
+  library(tidyr)
+  
+  seq$id = 1:nrow(seq)
+  seq2 <- gather(syn_dt,key = "variable",value= "value",-id)
+  
+  
+  p <- ggplot(data = seq2, aes(x = as.factor(as.numeric(variable)),y = as.factor(id), fill = as.factor(value), label = value)) +
+    geom_tile(colour = "white",height=0.8) +
+    geom_text(colour = "white", fontface = "bold", size = text_width) +
+    xlab(x_title) + ylab(y_title) +
+    ggtitle(title) +
+    scale_fill_discrete(na.value="transparent") +
+    theme_bw() +
+    theme(legend.position="none",
+          axis.text.x=element_blank(),
+          axis.ticks.x=element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank())
+  
+  return(p)
+}

@@ -6,6 +6,9 @@ Author: Vilua Data Science Team (Munich)
 Maintainer: The package maintainer <smith.agarwal@vilua.de>
 Description: Reuse complicated functions developed by Vilua Healthcare Data Science team
     for various healthcare projects.
+Imports: tidyr,
+    data.table,
+    ggplot2
 License: Vilua Healthcare Gmbh
 Encoding: UTF-8
 LazyData: true

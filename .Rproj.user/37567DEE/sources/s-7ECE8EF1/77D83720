@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547128757609.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3564534262",
+    "id" : "77D83720",
+    "lastKnownWriteTime" : 1547132824,
+    "last_content_update" : 1547132824794,
+    "path" : "~/ViluaHealthcare Package/ViluaHealthcare/R/plot_rep_seq.R",
+    "project_path" : "R/plot_rep_seq.R",
+    "properties" : {
+        "cursorPosition" : "12,55",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
