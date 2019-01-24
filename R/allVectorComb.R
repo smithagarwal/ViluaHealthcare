@@ -5,11 +5,11 @@
 #' @return Vector with all the possible combinations of the input vector
 #'
 #' @examples
-#' all_vector_comb(data = c("a","b","c"))
+#' allVectorComb(data = c("a","b","c"))
 #'
 #' @export
 
-all_vector_comb <- function(data){
+allVectorComb <- function(data){
   c(data, lapply(seq_along(data)[-1L],
               function(y) combn(data, y, paste0, collapse = ",")),
     recursive = TRUE)
