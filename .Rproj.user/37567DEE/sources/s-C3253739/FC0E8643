@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1548333538118.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FC0E8643",
+    "lastKnownWriteTime" : 1548333509,
+    "last_content_update" : 1548333509,
+    "path" : "~/ViluaHealthcare Package/ViluaHealthcare/R/allVectorComb.R",
+    "project_path" : "R/allVectorComb.R",
+    "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
